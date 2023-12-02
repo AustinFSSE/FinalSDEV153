@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/breakfast.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <title>Top-Secret Recipes</title>
+</head>
+<body>
+
+
+<script>
+    function trackMouse(event) {
+        document.documentElement.style.setProperty(
+            '--cursorXPos',
+            `${event.clientX}px`
+        )
+        document.documentElement.style.setProperty(
+            '--cursorYPos',
+            `${event.clientY}px`
+        )
+    }
+    document.addEventListener('mousemove', trackMouse)
+</script>
+<div id="wrapper">
+    <h1 class="text">Lunch</h1>
+    <h1 class="important">Remember to never speak of what is revealed below!</h1>
+    <div class="recipes">
+        <p>
+            As the sun ascends its throne, noon unveils an interlude,
+            a sanctuary for sustenance amid life's whirlwind. Plates emerge adorned with an eclectic assembly,
+            a mosaic of culinary whispers beckoning exploration.
+            The symphony of lunch resonates—a fusion of savory and crisp,
+            a canvas embellished with hues and textures.
+            Amidst this midday riddle, gastronomic adventures await, each bite a revelation.
+            Secrets unfold within layers of artisanal creations, ensnaring the senses in a labyrinth of flavors.
+            The air hums with whispered conversations, an orchestra of clinking cutlery and shared murmurs.
+            Lunch, more than mere sustenance, embodies an enigmatic interlude—a respite from the cosmic tango,
+            a communion with sustenance's mysteries. It invites the curious to decipher its enigmas,
+            offering a glimpse into the ephemeral fusion of moments and
+            meals—a symposium where indulgence meets nourishment in clandestine harmony.
+        </p>
+        <div id="meals">
+            <p id="egg">
+                In the garden's whispers, a verdant enigma emerges—a mosaic of crispness,
+                vibrant hues entwined in a dance. Each leaf holds a cryptic tale,
+                a symphony of textures awaiting exploration.
+            </p>
+            <div id="meal1">
+                <section>
+                    <img src="../images/lunch/salad.png" alt="salad">
+                    <h2>Tossed Garden Salad</h2>
+                    <p>25 mins | 200 Cals | Easy-to-make</p>
+                </section>
+            </div>
+            <p>
+                In the realm of street fare,
+                an enigmatic union resides—a tantalizing fusion cloaked in simplicity.
+                Embrace the mystery within the bun's embrace,
+                where flavors entwine in clandestine harmony.
+            </p>
+            <div id="meal2">
+                <section>
+                    <img src="../images/lunch/hotdog.png" alt="hotdog">
+                    <h2>Greasy Glizzy</h2>
+                    <p>20 mins | 750 Cals | Easy-to-make</p>
+                </section>
+            </div>
+            <p>
+                Within the gastronomic realm,
+                a symphony of layers converges—a mysterious amalgamation concealed within the bun's embrace.
+                Flavors entwine, an enigmatic saga of succulence and secrets awaiting revelation.
+            </p>
+            <div id="meal3">
+                <section>
+                    <img src="../images/lunch/burger.png" alt="burger">
+                    <h2>Classic Cheeseburger</h2>
+                    <p>15 minutes | 850 cals | Easy-to-make</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

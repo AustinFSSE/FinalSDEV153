@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/breakfast.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <title>Top-Secret Recipes</title>
+</head>
+    <body>
+    <script>
+        function trackMouse(event) {
+            document.documentElement.style.setProperty(
+                '--cursorXPos',
+                `${event.clientX}px`
+            )
+            document.documentElement.style.setProperty(
+                '--cursorYPos',
+                    `${event.clientY}px`
+            )
+        }
+        document.addEventListener('mousemove', trackMouse)
+    </script>
+        <div id="wrapper">
+            <h1 class="text">Breakfast</h1>
+            <h1 class="important">Remember to never speak of what is revealed below!</h1>
+            <div class="recipes">
+                <p>
+                    In the gentle morning's embrace, a pair of sun-kissed orbs dance in perfect harmony atop a canvas of warmth.
+                    Their yolky secrets await the seeker, nestled within delicate, golden boundaries.
+                    Alongside them, whispers of crispness emerge, a savory symphony of smoky indulgence.
+                    Meanwhile, humble companions arrive, adorned in a cloak of richness,
+                    inviting the questing palate to venture forth into a realm where simplicity and delight converge.
+                </p>
+                <p>
+                    Your flashlight will reveal the answers to you now!
+                </p>
+                <div id="meals">
+                    <p id="egg">
+                        In the alchemy of a heated pan, conjure an enigmatic transformation from a humble egg.
+                        The flip unveils an intriguing over-easy secret to savor.
+                    </p>
+                    <div id="meal1">
+                            <section>
+                                    <img src="../images/breakfast/fried-egg.png" alt="fried egg">
+                                    <h2>Fried Egg Sandwich</h2>
+                                    <p>5 mins | 500 Cals | Easy-to-make</p>
+                            </section>
+                    </div>
+                    <p>
+                        In the whispered ritual of morning's allure,
+                        flour's alchemy dances with secrets in the sizzle of a sacred griddle.
+                        Served golden, a sublime enigma awaits.
+                    </p>
+                    <div id="meal2">
+                            <section>
+                                    <img src="../images/breakfast/pancakes.png" alt="pancakes">
+                                    <h2>Pancakes with Syrup</h2>
+                                    <p>20 mins | 750 Cals | Easy-to-make</p>
+                            </section>
+                    </div>
+                    <p>
+                        Within the quiet whispers of dawn's realm,
+                        tiny enigmatic morsels rest in anticipation,
+                        awaiting the baptism of milk—a cryptic symphony of crunch and delight unfolds.
+                    </p>
+                    <div id="meal3">
+                        <section>
+                                    <img src="../images/breakfast/cereals.png" alt="cereal">
+                                    <h2>Cereal with Milk</h2>
+                                    <p>1 minute | 500 cals | Easy-to-make</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

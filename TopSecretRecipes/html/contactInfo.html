@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contactInfo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <title>Top-Secret Recipes</title>
+</head>
+    <body>
+        <div id="wrapper">
+            <header class="text">Give us your precious Information!</header>
+            <form>
+                <div id="fname">
+                    <label for="first">First name: </label>
+                    <input type="text" id="first" name="first" placeholder="Enter your first name">
+                </div>
+                <br/>
+                <div id="lname">
+                    <label for="last">Last name: </label>
+                    <input type="text" id="last" name="last" placeholder="Enter your last name">
+                </div>
+                <div id="email1">
+                    <label for="email">E-mail address:</label>
+                    <input type="email" id="email" name="email" placeholder="enter an email address">
+                </div>
+                <div id="submit">
+                    <script>
+                        function showErrorPopup() {
+                            alert("Thank you for submitting your information");
+                        }
+                        document.addEventListener('DOMContentLoaded', function(){
+                            const link = document.getElementById("submit");
+                            link.addEventListener("click", function (e){
+                                e.preventDefault();
+                                showErrorPopup();
+                            });
+                        });
+                    </script>
+                    <button>Submit</button>
+                </div>
+            </form>
+            <main>
+                <p><span class="text">Prepare Yourself</span>
+                    We will tell this story in the wee hours of the day and deliver a full experience!
+                    Once upon a <span class="important">midnight</span>, as the clock struck twelve, breakfast began in a quaint, isolated cabin.
+                    The fire crackled, casting eerie shadows as a lone figure prepared a meal.
+                    The <span class="important">eggs sizzled</span>, the aroma melding with the forest's mysterious whispers.
+                    Lunch, amidst foggy woods, unfolded like a haunting melody. The mist weaved around the trees, concealing a spectral picnic.
+                    Sandwiches vanished into the mist, their echoes mingling with rustling leaves and distant whispers.
+                    Dinner descended upon a <span class="important">dilapidated mansion</span>, where candles flickered in a forgotten dining hall.
+                    Plates were set for ghostly guests, their apparitions dining on courses of spectral soups and phantom roasts.
+                    Dessert beckoned in a spectral bakery, where <span class="important">ethereal pastries</span> glimmered behind dusty shelves.
+                    The midnight baker, a specter of the past, crafted confections that shimmered like moonlight, each bite whispering forgotten tales.
+                    Throughout this spectral day, the meals were more than sustenance;
+                    they were encounters with the spectral realm, echoing with tales of bygone eras and <span class="important">lingering phantoms</span>.
+                    Each bite carried a flavor of mystery, a taste of the unseen, leaving lingering echoes in the ethereal night.
+
+                </p>
+                <p>
+                    Once you leave this page you will only be able to view each page through your
+                    flashlight lens.. Beware of what awaits you!!
+                </p>
+                <p>(you will need to use your browsers tab for any further navigation)</p>
+            </main>
+            <footer>
+                <p>
+                    <a href="index.html">Home Page</a>
+                    ---
+                    <a href="breakfast.html">Breakfast</a>
+                    ---
+                    <a href="lunch.html">Lunch</a>
+                    ---
+                    <a href="dinner.html">Dinner</a>
+                    ---
+                    <a href="dessert.html">Dessert</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
