@@ -114,8 +114,8 @@ body {
     position: fixed;
     background: radial-gradient(
         circle 15rem at var(--cursorXPos) var(--cursorYPos),
-        rgba(0,0,0,0.80)20%,
-        rgba(0,0,0,0.80)300%
+        rgba(0,0,0,0)20%,
+        rgba(0,0,0,0.80)100%
     );
 z-index: 11;
 }
