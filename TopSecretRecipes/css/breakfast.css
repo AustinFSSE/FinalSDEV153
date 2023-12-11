@@ -86,22 +86,23 @@ body {
     margin: 5%;
     width: 80%;
     row-gap: 5px;
-    & #meal1 #meal2 #meal3{
+}
+#meal1 #meal2 #meal3{
         display: flex;
         flex-direction: column;
         border-color: black;
         padding: 2em;
         border-radius: 300px;
     }
-    & img {
+img {
         height: 100px;
         width: 100px;
     }
 
-    & h2 {
+h2 {
         margin-left: 10%;
     }
-}
+
 :root {
     cursor: none;
     --cursorXPos: 50vw;
