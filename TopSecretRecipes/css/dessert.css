@@ -114,13 +114,21 @@ h2 {
         margin-left: 10%;
     }
     
-footer p{
+footer ul{
     display: flex;
     justify-content: center;
     align-content: center;
     margin-bottom: 2%;
 }
+footer li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: gold;
+}
 footer a {
     text-decoration: none;
     color: gold;
+    margin-bottom: 2%;
 }
