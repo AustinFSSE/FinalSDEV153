@@ -47,6 +47,11 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
+    opacity: 0;
+}
+section:hover {
+    transition-duration: 5s;
+    opacity: 1;
 }
 img {
     height: 250px;
@@ -60,11 +65,23 @@ img {
     width: 60%;
     margin: 2% 20% 2%;
     box-shadow: 5px 5px 100px lightgrey;
-    border-radius: 250px;
+    border-radius: 250px;   
     border-color: lightgrey;
     border-style: double;
+    opacity: 0;
 }
-
+#wrapper:hover {
+    transition: 1s ease-in;
+    opacity: 1;
+    transition: 1s ease-out;
+}
+.recipes {
+    opacity: 0;
+}
+.recipes:hover {
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
 body {
     top: 0;
     left: 0;
@@ -83,25 +100,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 5%;
+    margin: 10%;
     width: 80%;
     row-gap: 5px;
 }
-#meal1 #meal2 #meal3{
-        display: flex;
-        flex-direction: column;
-        border-color: black;
-        padding: 2em;
-        border-radius: 300px;
-}
+
 img {
         height: 100px;
         width: 100px;
-}
+    }
 
 h2 {
         margin-left: 10%;
     }
+    
 footer p{
     display: flex;
     justify-content: center;
